@@ -1,0 +1,38 @@
+.my_offers {
+ display: flex;
+ flex-direction: column;
+ padding: 24px 15px;
+ max-width: 329px;
+
+ &__info {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 17px;
+  cursor: pointer;
+
+  &__message {
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: -0.022em;
+   color: #17A2B8;
+  }
+ }
+
+ &__filter {
+  width: 167px;
+  height: 38px;
+ }
+
+ &__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.022em;
+  color: #1E1E1E;
+ }
+}

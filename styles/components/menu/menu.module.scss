@@ -1,0 +1,24 @@
+.menu {
+  background: #EFEFEF;
+
+  height: 5vh;
+  
+  display: flex;
+  text-align: center;
+}
+
+.item {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 21px;
+  color: #000;
+
+
+  &:hover {
+    color: #ABB5BE;
+  }
+
+  @media (max-width: 650px) {
+    font-size: 9px;
+  }
+}

@@ -1,0 +1,54 @@
+.offers_table {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+
+  &__items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__amount {
+    font-weight: 500;
+    font-size: 20px;
+    align-self: center;
+  }
+
+  &__total {
+    align-self: end;
+    font-weight: 300;
+    font-size: 8px;
+    color: #FF0000;
+  }
+
+  &__mine {
+    color: #0085FF;
+  }
+
+  &__partial {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.022em;
+    color: #000000;
+  }
+
+  &__separator {
+    border: 1px solid #000000;
+    margin: 10px 0;
+  }
+
+  &__sum {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.022em;
+    color: #000000;
+  }
+}

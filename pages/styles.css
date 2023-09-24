@@ -1,0 +1,63 @@
+.site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+    background: #fff;
+  }
+.platform-name {
+    float: left;
+    color: #fff;
+    width: 400px;
+  }
+.footer {
+  text-align: center;
+  padding: 14px 0;
+  height: 50px;
+}
+.error {
+  color: #ff0000;
+}
+.mensaje {
+  color: #55ff55;
+}
+#layout .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+.ant-row-rtl #layout-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+
+.ant-layout {
+    background: #fff !important;
+}
+
+.layout {
+    min-height: 100vh;
+    width: 100%;
+}
+
+.layout-content {
+    min-width: 500px;
+    max-width: 500px;
+    align-self: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-device-width:640px), screen and (max-width:640px) {
+    .layout-content {
+        max-width: 300px;
+        min-width: 300px;
+    }
+}
+
+.ant-checkbox-inner {
+    border-color: #a7a7a7 !important;
+}
+

@@ -1,0 +1,37 @@
+.offers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 44px;
+
+  &__title {
+    font-weight: 500;
+    font-size: 15px;
+    flex: 1;
+  }
+
+  &__button {
+    width: 100%;
+    background: #FFC107;
+    border-radius: 6.59794px;
+    margin-bottom: 10px;
+  }
+
+  &__amount {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+
+  &__o_label {
+    text-align: center;
+  }
+
+  &__table_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+}
+
+.error {
+  color: #FF0000;
+}

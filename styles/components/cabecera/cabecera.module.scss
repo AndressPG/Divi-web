@@ -1,0 +1,26 @@
+.navbar {
+  background: #faad14;
+  font-family: 'Inter';
+  font-size: 20px;
+  text-align: center;
+}
+
+.leftContent {
+  text-align: left;
+}
+
+.centerContent {
+  text-align: center;
+}
+
+.platformName {
+  color: #000;
+}
+
+.clock {
+  font-size: 20px;
+
+  span {
+    margin: 0 10px;
+  }
+}

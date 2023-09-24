@@ -1,0 +1,34 @@
+.my_exchanges {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title, &__subtitle, &__mid_point {
+    font-weight: 500;
+    font-size: 24px;
+    color: #1E1E1E;
+  }
+
+  &__title {
+    align-self: start;
+    margin-top: 8px;
+  }
+
+  &__remaining_title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FF0000;
+  }
+
+  &__remaining_time {
+    font-weight: 500;
+    font-size: 36px;
+    color: #FF0000;
+  }
+
+  &__total {
+    align-self: start;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,34 @@
+.my_exchange {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 21px;
+  position: relative;
+  margin-top: 10px;
+
+  &__title {
+    position: absolute;
+    top: -12px;
+    background: white;
+  }
+
+  &__deposit {
+    margin-top: 8px;
+    align-self: start;
+    background: #FFC107;
+    border-radius: 6.59794px;
+    color: #ffffff;
+  }
+
+  &__cancel {
+    margin-top: 15px;
+    align-self: start;
+    font-weight: 600;
+    font-size: 14px;
+    color: #FFCD29;
+
+    span {
+      text-decoration-line: underline;
+    }
+  }
+}
